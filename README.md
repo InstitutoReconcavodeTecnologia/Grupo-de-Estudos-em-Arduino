@@ -1,2 +1,2 @@
-# arduino-do-almo-o
+# arduino-do-almoco
 pequenos códigos que fazemos no horário de almoço
