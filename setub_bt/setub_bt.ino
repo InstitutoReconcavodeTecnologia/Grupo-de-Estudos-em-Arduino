@@ -19,15 +19,13 @@ void loop()
 {
   // Read device output if available.
   if (mySerial.available())
-  {
-    while (mySerial.available())
+  {    while (mySerial.available())
     { // While there is more to be read, keep reading.
       command += (char)mySerial.read();
     }
     Serial.print(command);
     command = ""; // No repeats
   }
-
   // Read user input if available.
   if (Serial.available())
   {
