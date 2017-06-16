@@ -1,4 +1,4 @@
-# Grupo de estudos em arduíno e conectividade
+# Grupo de estudos em embarcados e conectividade
 
 Repositório onde estão os artefatos desenvolvidos pelo laboratório de hardware e conectividade do instituto recôncavo de tecnologia.
 
