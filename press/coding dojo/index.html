@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Arduíno dojo</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section><h1>Arduíno dojo</h1></section>
+				<section><h1>Apresentação:</h1>
+					<ul>
+						<li>Antonio Ladeia</li>
+						<li>Felipe Lacerda</li>
+					</ul>				
+				</section>
+				<section><h1>Apresentação</h1>
+					<ul>
+						<li>Laboratório de arduíno e conectividade</li>
+						<li>Repositório do IRT no Github</li>
+						<li>Coding dojo</li>
+					</ul>			
+				</section>
+				<section>
+					<h1>Laboratório de arduíno e conectividade</h1>
+					<ul>
+						<li>Aberto a qualquer membro do instituto</li>
+						<li>Discussões através de lista de emails (embarcados@reconcavo.org.br)</li>
+						<li>Laboratório já em operação</li>
+					</ul>
+				</section>
+				<section>
+					<h1>Repositório do IRT no Github</h1>
+					<ul>
+						<li>IRT possui uma organização no Github</li>
+						<li>Projetos abertos do IRT serão armazenados lá</li>
+						<li>Os códigos criados pelo grupo de estudos estarão também abertos (Licença MIT)</li>
+					</ul>
+				</section>
+				<section>
+					<section><h1>Coding dojo</h1></section>
+					<section><p>O coding dojo é uma atividade onde as pessoas exercitam a programação, alternando a posição reflexiva da platéia com as posições mais ativas dos pilotos, evoluindo a partir do trabalho dos pilotos anteriores.</p>
+					</section>
+					<section>
+					<h3>Coding dojo é bom para:</h3>
+					<ul>
+							<li>Aprender novas linguagens ou APIs</li>
+							<li>Integrar novos membros ao time</li>
+						</ul>
+					</section>
+					<section>
+						<h3>Como funciona:</h3>
+						<p>Define-se um piloto, um copiloto e um desafio. O piloto, sentado ao computador, é a única pessoa que pode utilizá-lo para concluir o desafio. O copiloto permanece ao seu lado, mas somente para observar o piloto em ação e oferecer indicações. A platéia deve permanecer em silêncio, oferecendo ajuda quando solicitada.</p>
+					</section>
+					<section>
+						<p>Independente do desafio ser resolvido, a cada cinco minutos o atual piloto volta à platéia, o copiloto torna-se o próximo piloto, e alguém da platéia assume como copiloto.</p>
+
+						<p>Por fim, a cada desafio cumprido, deve ser feito um commit da funcionalidade, e outro desafio, ligeiramente mais complexo, será oferecido.</p>
+					</section>
+					<section>
+						<h3>Desafio:</h3>
+						<p>Nossa missão inicial é fazer uma animação tipo luz sequencial usando os 6 segmentos que formam o numero zero: acende um segmento, deixa um tempo aceso, apaga e imediatamente acende o próximo, repetindo para sempre.</p>
+					</section>
+					<section>
+						<h3>Desafio:</h3>
+						<p>Agora temos que controlar a velocidade com o potenciômetro.</p>
+					</section>
+					<section>
+						<h3>Retrospectiva</h3>
+						<ul>
+							<li>O que aprendemos com o Coding Dojo de hoje</li>
+    						<li>O que podemos melhorar para a realização dos próximos Coding Dojos</li>
+    						<li>O que devemos continuar fazendo nos próximos Coding Dojos</li>
+    					</ul>
+					</section>
+				</section>
+				<section>
+					<h1>Perguntas?</h1>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
