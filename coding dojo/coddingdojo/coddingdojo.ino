@@ -26,8 +26,7 @@
 void setup() {
   // initialize digital pin LED_BUILTIN as an output.
 
-  Serial.begin(9600);
-  for (int i = 13; i > 7; i--){
+  for (int i = 13; i > 6; i--){
     pinMode(i, OUTPUT);
   }
   
@@ -36,13 +35,27 @@ void setup() {
 // the loop function runs over and over again forever
 void loop() {
 
-  int x = analogRead(0);
-   
-  for (int i = 13; i > 7; i--){
-     digitalWrite(i, HIGH);   // turn the LED on (HIGH is the voltage level)
-     delay(x);                       // wait for a second
-     digitalWrite(i, LOW);    // turn the LED off by making the voltage LOW
-     delay(x);
-  }
+  //int x = 2;
+  //for (int i = 8; i <= 13; i++){
+        
+     light(8,8);
+     light(9,13);
+     light(13,7);
+     light(7,10);
+     light(10,11);
+     light(11,12);
+     light(12,7);
+     light(7,9);
+  //}
     
 }
+
+void light(int v1, int v2) {
+   //digitalWrite(v1, HIGH);
+   digitalWrite(v2, HIGH);// turn the LED on (HIGH is the voltage level)
+   delay(analogRead(0));                       // wait for a second
+   //digitalWrite(v1, LOW); 
+   digitalWrite(v2, LOW);// turn the LED off by making the voltage LOW
+   delay(analogRead(0));
+}
+
